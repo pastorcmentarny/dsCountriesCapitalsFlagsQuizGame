@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="3"
+                android:text="@string/your_result"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="32sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/result_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:padding="2dp"
+                android:shadowColor="@color/bonus_score_shadow"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="4"
+                android:text="@string/awesome"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/bonus_score"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/result_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="3"
+                android:text="@string/hundred_percent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="32sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/linear_accelerationXTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/yt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="4"
+                    android:text="@string/correct_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/correct_answers_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="4"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:text="@string/zero"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/mistake_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="4"
+                    android:text="@string/mistakes_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/mistakes_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="4"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:text="@string/zero"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow android:id="@+id/questions_row">
+
+                <TextView
+                    android:id="@+id/questions_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="4"
+                    android:text="@string/questions_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/questions_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="4"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:text="@string/zero"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/levelTableRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:id="@+id/levelTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="4"
+                    android:text="@string/level_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/levelNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="4"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:text="@string/zero"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="4"
+                    android:text="@string/time_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/result_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:padding="2dp"
+                    android:shadowColor="@color/score_shadow"
+                    android:shadowDx="4"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:text="@string/zero_time"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/score"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/restart" />
+
+            <Button
+                android:id="@+id/backToMainMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_to_menu" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/record"
+                    style="@android:style/TextAppearance.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_span="2"
+                    android:text=""
+                    android:textColor="@color/ok"
+                    android:textStyle="italic" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

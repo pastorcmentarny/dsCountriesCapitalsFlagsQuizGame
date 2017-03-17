@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="about">#FFA824</color>
+    <color name="version">#ffdd5f2c</color>
+
+    <!-- level -->
+    <color name="separator">#FFA824</color>
+    <color name="separator_shadow">#65A4C3</color>
+    <color name="value">#DDDDDD</color>
+    <color name="value_shadow">#74C365</color>
+    <color name="status">#65A4C3</color>
+    <color name="removed_button">#6FD2D2</color>
+    <color name="health">#ff17cfd2</color>
+    <color name="health_shadow">#ff7db715</color>
+
+    <!-- frozen button -->
+    <color name="freeze_text">#17cfd2</color>
+    <color name="freeze_text_background">#65A4C3</color>
+    <color name="freeze_background">#6FD2D2</color>
+
+    <!-- status -->
+    <color name="error">#FF2200</color>
+    <color name="warning">#ff5932</color>
+    <color name="ok">#74C365</color>
+    <color name="good_news">#9acd32</color>
+    <color name="bad_news">#ff8800</color>
+    <color name="status_info">#6FD2D2</color>
+    <!-- scale -->
+    <color name="very_high">#88FF66</color>
+    <color name="high">#74C365</color>
+    <color name="medium">#DDDD44</color>
+    <color name="low">#FFA824</color>
+    <color name="very_low">#FF2211</color>
+
+    <!--score-->
+    <color name="score">#DDDDDD</color>
+    <color name="score_shadow">#74C365</color>
+    <color name="bonus_score">#66EE55</color>
+    <color name="bonus_score_shadow">#74C365</color>
+
+    <!-- grades color styles -->
+    <color name="grade_perfect">#17cfd2</color>
+    <color name="grade_perfect_shadow">#ff7db715</color>
+    <color name="grade_awesome">#6FD2D2</color>
+    <color name="grade_awesome_shadow">#65A4C3</color>
+    <color name="grade_great">#66EE55</color>
+    <color name="grade_great_shadow">#74C365</color>
+    <color name="grade_good">#DDDD44</color>
+    <color name="grade_good_shadow">#BBBB44</color>
+    <color name="grade_poor">#FFA824</color>
+    <color name="grade_poor_shadow">#BB8824</color>
+    <color name="grade_fail">#FF6A32</color>
+    <color name="grade_fail_shadow">#BB6332</color>
+    <color name="grade_epic_fail">#FF3311</color>
+    <color name="grade_epic_fail_shadow">#BB1100</color>
+    <color name="title">#C0FF3E</color>
+
+    <!-- background -->
+    <color name="background_default">#111111</color>
+
+    <!-- text -->
+    <color name="text_default_primary">#65A4C3</color>
+    <color name="text_default_secondary">#DDDD44</color>
+
+    <!-- spinner -->
+    <color name="spinner_background_main">#9acd32</color>
+    <color name="spinner_background_popup">#FFA824</color>
+    <color name="transparent">#0000</color>
+
+</resources>

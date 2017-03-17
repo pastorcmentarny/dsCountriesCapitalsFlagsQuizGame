@@ -1,0 +1,22 @@
+<resources>
+    <array name="runAbout">
+        <item>@string/about_me_label</item>
+        <item>@string/about_program_label</item>
+        <item>@string/thanks_label</item>
+        <item>@string/eula_label</item>
+        <item>@string/about_game_accuracy_label</item>
+    </array>
+
+    <array name="gameType">
+        <item>@string/game_type_custom</item>
+        <item>@string/game_type_capital</item>
+        <item>@string/game_type_country</item>
+        <item>@string/game_type_flag</item>
+    </array>
+
+    <array name="hsType">
+        <item>@string/hs_type_adventure</item>
+        <item>@string/hs_type_rest</item>
+    </array>
+
+</resources>

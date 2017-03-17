@@ -1,0 +1,339 @@
+<resources>
+
+    <string name="app_name">Doms countries capitals and flags - Quiz Game</string>
+    <string name="admob">ca-app-pub-1669938002445825/6029098304</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_tools">Tools</string>
+
+    <!-- ABOUT -->
+    <string name="about_me_label">ABOUT ME</string>
+    <string name="about_me_text">
+    ABOUT ME:\n\n
+    My name is Dominik.\n
+    I am software developer.\n
+    I am developing various android app for fun ,learn and challenge myself purposes.\n
+    I do not take this seriously, so instead of add lots of marketing-wise feature (which is pain in the a.. for the
+    user),i trying to add little easter eggs .\n
+    If you want know more,just look to my parody of homepage
+    http://pastor.ovh.org.\n
+    I hope, You will enjoy use my program.\n
+    If You have any comment, suggestion,feedback.\n
+    Feel happy to send to me.\n
+    My email: dmspastor@gmail.com.\n\n
+    Ciao.
+  </string>
+    <string name="about_program_label">ABOUT GAME</string>
+    <string name="about_program_text">ABOUT GAME:\n
+    This game was created as part of \'weekend challenge\'.\n
+    See my blog about how challenge looked and how to make simple game as this one.\n
+    Link: http://pastorcmentarny.blogspot.co.uk/2013/02/how-to-make-simple-game-in-android-part.html\n
+    It is simple causal quiz game where user can guess countries, capitals, flag or continents .\n
+    Idea for this game came to me during developing Doms learning chinese game ,
+    where i added few mini lesson will be about countries capitals continents and etc as i discover flags will
+    occupy too much spaces, so i made this.. independent game.
+  </string>
+    <string name="about_game_accuracy_label">GAME ACCURACY</string>
+    <string name="about_game_accuracy_text">
+    ABOUT GAME ACCURACY:\n
+    ** This game is NOT political correct! **\n
+    *\t I made decisions quite randomly and they are not necessary based on my believes.\n
+    *\t List of countries based extended version of what UN consider as country and partly ISO-3316-1 standard.\n
+    I included for example England,Scotland and Wales.\n
+    *\t Few countries are trans-continental as they are between 2 continents. For Egypt, Russia and Turkey both
+    continents are consider as correct.
+    Rest countries a signed to specific continent (That cover 95% or more).\n
+    *\t Brunei, East Timor, Indonesia,Malaysia, Philippines, and Singapore lies on the border of Oceania and Asia.\n
+    As there is few version about which country belong to which region, I arbitrarily make decision that all of them
+    are asian countries.\n
+    *\t Some capitals has * in the end,this is due some issue to related define capital of that country (for example
+    South Africa has 3 capitals,where Nauru does not have a capital) .\n
+    *\t Please look to country\'s info in Countries Info in main menu for details information about capitals of these
+    countries.\n
+    *\t I tried to make sure that all information are as correct as possible,but if YOU find a mistake.Let me know.I
+    will correct them as soon as possible.\n
+    Thank you in advance.\n
+  </string>
+    <string name="thanks_label">THANKS</string>
+    <string name="about_thanks_text">
+    THANKS:\n\n
+    * My wife and parents.\n
+    * Friends.\n
+    * People who making awesome music.\n
+    * Aberystwyth University(Wales/UK) (https://www.aber.ac.uk/en/)\n
+    * The Book People.\n
+    * SAW (http://softwarealliancewales.com/)\n
+    * Appbrain for ads network to make me rich\n
+    * Admob for ads network to make me rich\n
+
+    \nKNOWLEDGE RESOURCES:\n
+    * stackoverflow.com website for useful solutions.\n
+    * android-er.blogspot.co.uk for awesome blog entries\n
+
+    \nDATA RESOURCES:\n
+    * (Icons) : http://www.famfamfam.com/
+    * (Fonts):
+    \n\thttp://www.1001fonts.com/free-fonts-for-commercial-use.html\n\t www.fictionalhead.com\n\t1001fonts.com\n
+    * (Sounds): http://www.soundjay.com/ice-sound-effect.html
+
+  </string>
+    <string name="eula_label">EULA</string>
+    <string name="about_eula_text">
+    EULA\n\n
+    NOTICE TO USER: Please, please PLEEEEASE read this document carefully!\n
+    If You use this program, it means YOU voluntarily accept all the terms and conditions of this
+    Agreement.\n
+    Do NOT use this software, if You do not agree with this agreement.\n
+    If You do NOT understand any part of this EULA or You think that it something is missing here, You need contact
+    with author for explanation, before You can use this software.\n
+    Program is intended for experienced user. Please use your brain and logic as best as You can to ensure that You
+    use program for what program is designed for, because You are using at your own risk and You will not find any
+    warning like Milk (Allergy warning: contains Milk) as You can find on carton in shops.\n
+    \n
+    Software is Ad-ware(it means FREE OF CHARGE, but I will earn money by display ads in application provided by
+    third party companies) but it will not
+    harm me, if You would love to give some tiny donation.\n
+    \n
+    I put best efforts to create accuracy information about this program, but I cannot guarantee the
+    perfect accuracy of all content on this website.\n
+    I do not take any responsibility for content on ads(App brain is a company who displays ads in my app),links to
+    other blogs, websites, or resources maintained by
+    third parties in my program.\n
+    All copyrights, product names, service marks and trademarks are property of their respective owners and I used
+    them only for reference.\n
+    \n
+    LIMITATION OF LIABILITY\n
+    \n
+    This software is provided \'AS-IS\' and I do NOT take any liability for any damages or results of using\/modify
+    this software.\n
+    I do not take any responsibility or liability for any error, omission or inaccuracy.\n
+    The Software may be installed and used for any legal purpose.( I do NOT allow use my program for any illegal
+    purpose (like hacking, cracking, or mobile thieves) and I NOT take any liability for illegal usage of this
+    software).\n
+  </string>
+    <string name="noAbout">Woops. No information about .. about.How bizarre, is it ?</string>
+    <string name="tutorial_title">Tutorial</string>
+    <string name="tutorial_text">
+    Welcome in tutorial\n
+    GAME:\n You have 2 way to start game: NEW GAME and CUSTOM GAME\n
+    \nNEW GAME . It will starts \'ADVENTURE MODE\'
+    \'Adventure mode\' in this game you need answer on question it mix all classic games modes and add extra one
+    where you need guess region of the country.
+    During game good and bad things will happen to you like .. add some points or health ,lost some health or
+    gain a \'remove bad answer\' which i strongly believe is self explanatory. \n
+    On game over ,score can be saved locally or put to global leaderboard.\n
+    \nCUSTOM GAME. First, you need select between one of 3 classic game or create custom game:\n
+    Classic games to choose: country of the world,capitals of the world,flags of the world.\n
+    When you choose ,then you will answer 50 question and you will receive a grade on the end.\n
+    Perfect(100%),Awesome(99-88\%% ),Great(87-75\%% ), Good(75-63\%% ),Poor(62-51\%% ),Fail(50-0\%% ).\n
+    CUSTOM MODE:
+    SAPPER - When you make mistake .. then game over :).\n
+    TIME ATTACK .You have a limited time to answer on 50 question.You lose points for too slow answer and you lose
+    points for wrong answer.\n
+    WALKTHORUGH . You need guess all countries.\n
+    \n\nNext you need select what you want ask for (Country,capital or FLAG) and what answer you want give
+    (Country,capital or Continent).
+    \nPress START GAME.(No all combinations are allowed).\n
+    I hope you will enjoy your game.\n\n
+    About
+    Some capitals has stars in the end.Please looks to countries list for information about why i arbitrary chosen.
+
+  </string>
+
+    <!-- GRADES -->
+    <string name="perfect">PERFECT</string>
+    <string name="awesome">AWESOME</string>
+    <string name="great">GREAT</string>
+    <string name="good">GOOD</string>
+    <string name="poor">POOR</string>
+    <string name="fail">FAIL</string>
+    <string name="epic_fail">EPIC FAIL</string>
+    <string name="pass">PASS</string>
+
+    <!-- HIGH SCORES -->
+    <string name="hs_type_adventure">Adventure (WWW)</string>
+    <string name="hs_type_rest">All other (Local)</string>
+    <string name="highscore_select_title">Select High score</string>
+    <string name="hs_button_title">High Scores</string>
+
+    <!-- MENU -->
+    <string name="quick_game_button_title">NEW GAME</string>
+    <string name="custom_game_button_title">CUSTOM GAME</string>
+    <string name="tutorial_button_title">TUTORIAL</string>
+    <string name="options_button_title">OPTIONS</string>
+    <string name="exit_button_title">EXIT :(</string>
+    <string name="start_game">START GAME</string>
+
+    <!-- OTHER -->
+    <string name="back_to_menu">Back to Main Menu</string>
+
+    <!-- QUIZ -->
+    <string name="back_to_quit">If you press BACK BUTTON one more time, then game will be abandoned and you will back to
+    main menu.
+  </string>
+    <string name="corrects">CORRECT:</string>
+    <string name="mistakes">MISTAKE:</string>
+    <string name="time_left">TIME LEFT:</string>
+    <string name="time_elapsed">TIME ELAPSED:</string>
+    <string name="removed">-removed-</string>
+    <string name="warning_back_to_menu">If you press one more time.Game will be abandoned and you will back to main
+    menu!
+  </string>
+    <string name="incorrect">INCORRECT</string>
+    <string name="spell_remove_wrong_answer">Remove wrong answer</string>
+    <string name="spell_heal">Heal</string>
+    <string name="new_record">NEW HIGH SCORE!!!!</string>
+
+
+    <!-- SETUP -->
+    <string name="game_setup_when_ready">Ready?,press</string>
+    <string name="help_title">HEEEELP!I NEED A HELP!</string>
+    <string name="help_custom_setup_text">
+    So.. here you can setup what you want play.\n
+    you have 3 steps .\n
+    1)chose type of the game:\n
+    SAPPER - When you make mistake .. then game over :).\n
+    TIME ATTACK - You have a limited time to answer on 50 question.You lose points for too slow answer and you lose
+    points for wrong answer.\n
+    WALKTHORUGH - You need guess all countries.\n
+    \n\n2)Next you need select what you want ask for (Country,capital or FLAG) and what answer you want give
+    (Country,capital or Continent).
+    \n3)Press START GAME.(No all combinations are allowed).\n
+    \nBtw. if you want play adventure mode ,go back to main menu and press new game->adventure.\n
+    (adventure mode offers random question and has some events to make game more excited)
+    I hope you will enjoy game.
+  </string>
+
+    <!-- WORDS -->
+    <string name="unknown">UNKNOWN</string>
+    <string name="new_title">NEW</string>
+    <string name="custom_setup_title">CUSTOM GAME SETUP</string>
+    <string name="game_mode">Game mode</string>
+    <string name="game_question">QUESTION( to ask)</string>
+    <string name="game_answer">
+    ANSWER( you need guess):
+  </string>
+    <string name="close_it">CLOSE IT</string>
+
+
+    <string name="game_type_country">COUNTRIES OF THE WORLD</string>
+    <string name="game_type_capital">CAPITALS OF THE WORLD</string>
+    <string name="game_type_flag">FLAG OF THE WORLD</string>
+    <string name="game_type_continent">CONTINENT</string>
+    <string name="game_type_adventure">ADVENTURE</string>
+    <string name="game_type_custom">CUSTOM GAME</string>
+    <string name="country_list_title">COUNTRIES INFO</string>
+    <string name="highscore_title">HIGH SCORES</string>
+    <string name="new_high_score">!NEW HIGH SCORE!</string>
+    <string name="error_odd_custom_game_mode">Unknown choice from Dialog.Bug?Abnormal behave ?User select:</string>
+    <string name="understand">I understand.</string>
+    <string name="error_appbrain">Something went wrong with appbrain init method.</string>
+    <string name="advert_title">↓ Advert ↓</string>
+    <string name="beta">(Beta)</string>
+    <string name="welcome">WARM WELCOME TO YOU!</string>
+    <string name="login2swarm">Log In for LeaderBoard</string>
+    <string name="intro_title">INTRO</string>
+    <string name="play_game">START</string>
+    <string name="swarm_info">Swarm? Don\'t panic. Swarm provides access to global high score.If you don\'t want use
+    global high score.Simply press back button and start a game.
+  </string>
+    <string name="adventure_intro">
+    Adventure mode.\n
+    Let\'s skip bla-bla and move to rules.
+    Rules:\n
+    You need select correct answer from 4 or 6 possible answers.\n
+    Score system is so confusing that even i don\' really remember,how it works.\n
+    Here are some rules:\n
+    *You gain 1hp every level.\n
+    *You lose hp,if you give incorrect answer or you are too slow.\n
+    *More often you make mistake more hp will lose!\n\n
+    \nRandom events:\n
+    *Heal - add health\n
+    *Jackpot - add lots of points,health and move to next level\n
+    *MinorPointsBonus = add minor points\n
+    *Poison - you lose some health\n
+    *addRemoveWrongAnswer - add some amount of \'remove wrong answer\'\n
+    *painKiller - reduce penalty amount cause by incorrect answer\n
+    *blind - buttons are invisible.test your luck :)\n
+    *freeze - you need press \'Tap to unfreeze\' few times (up to 51 times) to unfreeze buttons.\n
+    *50 percent chance - you will be have 2 buttons available with correct answer and ONe with incorrect answer.
+
+
+  </string>
+    <string name="restart">Restart</string>
+    <string name="tap2unfreeze_label">Tap to unfreeze</string>
+
+    <string name="admob_error_message">Something went wrong with admob init method.
+    Error message:
+  </string>
+    <string name="admob_e">Admob ERROR</string>
+    <string name="hs_no_available">High Score not available</string>
+    <string name="error">ERROR</string>
+    <string name="e_msg">If error appear again and again. Please contact me and inform me about step you did,to get this
+    error,so i can find out what i mess up..\nTHANK YOU AND SORRY FOR SHIT HAPPENS WHILE USING MY SOFTWARE
+  </string>
+    <string name="log_arcade_intro">Creating intro for arcade mode.</string>
+    <string name="missing_selection">Something is missing here,is it?</string>
+    <string name="problem">Problem with reading file.
+  </string>
+    <string name="e_ioobe">(IndexOutOfBoundsException)</string>
+    <string name="frozen">Frozen</string>
+    <string name="about">ABOUT</string>
+    <string name="play_sound_summary">Play sounds in various situations.For example: when user make mistake.</string>
+    <string name="play_sound_title">Play sound?</string>
+    <string name="vibration">Vibration</string>
+    <string name="play_vibration_summary">Use vibration in various situations.For example: when user make mistake.
+  </string>
+    <string name="enter_username">Please enter your username</string>
+    <string name="username_title">Username</string>
+    <string name="other_settings_summary">Other settings</string>
+    <string name="other_settings_title">Settings</string>
+    <string name="reset_hs_summary">Resetting high score with random values.</string>
+    <string name="reset_hs_title">Reset HighScore</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_summary">Settings for feedback</string>
+    <string name="anonymous">You remain anonymous</string>
+    <string name="option_show_intro_title">Show intro,before game?</string>
+    <string name="option_show_intro_summary">Shows or not introduction on beginning of the game.</string>
+    <string name="about_label">About</string>
+    <string name="exit">Quiting app :(</string>
+    <string name="ab_e">AppBrain ERROR</string>
+    <string name="ab_e_inter">There was problem with show Interstitial</string>
+    <string name="ok">OK.OK.I understand.</string>
+    <string name="zero">0</string>
+    <string name="level_question">QUESTION</string>
+    <string name="game_score">SCORE:</string>
+    <string name="game_zero">0</string>
+    <string name="game_level">LEVEL:</string>
+    <string name="zeroByZero">0/0</string>
+    <string name="game_answer_type_question">What is ANSWER_TYPE of:</string>
+    <string name="flag_description">Flag</string>
+    <string name="adUnitId">ca-app-pub-1669938002445825/6029098304</string>
+    <string name="your_result">YOUR RESULT</string>
+    <string name="hundred_percent">100%</string>
+    <string name="correct_title">CORRECT:</string>
+    <string name="mistakes_title">MISTAKES:</string>
+    <string name="questions_title">QUESTIONS:</string>
+    <string name="level_title">LEVEL:</string>
+    <string name="time_title">TIME:</string>
+    <string name="zero_time">00:00:00</string>
+    <string name="question">QUESTION</string>
+    <string name="question_title">What is ANSWER_TYPE of:</string>
+    <string name="help">HELP!</string>
+    <string name="country">COUNTRY</string>
+    <string name="nothing_to_write">Nothing interesting to write here.</string>
+    <string name="image_description">An image</string>
+    <string name="advert">↓ Advert ↓</string>
+    <string name="hs">High scores</string>
+    <string name="question_example">Example of question.What is ANSWER of QUESTION ?</string>
+    <string name="health">Health:</string>
+    <string name="tap_to_unfreeze">Tap to unfreeze</string>
+    <string name="new_hs">!NEW HIGH SCORE!</string>
+    <string name="event_blind">You are blind! Guess,where is an answer</string>
+    <string name="button_defrosted">Buttons defrost :).Hurry up! Guess answer!</string>
+    <string name="blind">You are blind!</string>
+    <string name="fifty_fifty_to_guess">50 percent change to guess!</string>
+    <string name="error_dictionary_problem">Program has problem with dictionary. It means Author(Me) mess up something.Please.send me an email. I am sorry for problem!\nPos:</string>
+    <string name="error_unsupported_game_mode_requested">Unsupported game mode was requested. %s</string>
+
+
+</resources>

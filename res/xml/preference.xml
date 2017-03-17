@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:summary="Set information about user."
+        android:title="Username information">
+        <EditTextPreference
+            android:key="username"
+            android:summary="@string/enter_username"
+            android:text="No name"
+            android:title="@string/username_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="@string/notifications_summary"
+        android:title="@string/notifications_title">
+
+        <CheckBoxPreference
+            android:key="vibrate"
+            android:summary="@string/play_vibration_summary"
+            android:title="@string/vibration" />
+        <CheckBoxPreference
+            android:key="sound"
+            android:summary="@string/play_sound_summary"
+            android:title="@string/play_sound_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="@string/other_settings_summary"
+        android:title="@string/other_settings_title">
+
+        <Preference
+            android:key="reset"
+            android:summary="@string/reset_hs_summary"
+            android:title="@string/reset_hs_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="showIntro"
+            android:summary="@string/option_show_intro_summary"
+            android:title="@string/option_show_intro_title" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
