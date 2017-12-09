@@ -22,7 +22,7 @@
             android:id="@+id/play_game_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="start|center_vertical|"
+            android:layout_gravity="start|center_vertical"
             android:text="@string/play_game" />
 
         <EditText
