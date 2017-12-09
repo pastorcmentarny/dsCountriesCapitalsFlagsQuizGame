@@ -276,11 +276,11 @@ public class AppLauncher extends Activity implements View.OnClickListener {
     }
 
     private void setupUIComponent() {
-        Button quickGameButton = (Button) findViewById(R.id.quickGameButton);
+        Button quickGameButton = findViewById(R.id.quickGameButton);
         quickGameButton.setOnClickListener(this);
-        Button customGameButton = (Button) findViewById(R.id.customGameButton);
+        Button customGameButton = findViewById(R.id.customGameButton);
         customGameButton.setOnClickListener(this);
-        TextView version = (TextView) findViewById(R.id.version);
+        TextView version = findViewById(R.id.version);
         version.setText(DomUtils.getAppVersion(this));
         TextView tutorialButton = (Button) findViewById(R.id.tutorialButton);
         tutorialButton.setOnClickListener(this);
@@ -288,12 +288,12 @@ public class AppLauncher extends Activity implements View.OnClickListener {
         aboutButton.setOnClickListener(this);
         TextView settingsButton = (Button) findViewById(R.id.settingsButton);
         settingsButton.setOnClickListener(this);
-        Button highScoreButton = (Button) findViewById(R.id.highScoreButton);
+        Button highScoreButton = findViewById(R.id.highScoreButton);
         highScoreButton.setOnClickListener(this);
-        Button countriesInfoButton = (Button) findViewById(R.id.countriesInfoButton);
+        Button countriesInfoButton = findViewById(R.id.countriesInfoButton);
         countriesInfoButton.setOnClickListener(this);
 
-        TextView randomMessage = (TextView) findViewById(R.id.randomMessage);
+        TextView randomMessage = findViewById(R.id.randomMessage);
         randomMessage.setText(EEUtils.getRandomTrivia());
     }
 }

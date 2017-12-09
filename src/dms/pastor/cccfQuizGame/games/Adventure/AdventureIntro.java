@@ -52,9 +52,9 @@ public class AdventureIntro extends Activity implements View.OnClickListener {
     }
 
     private void setupUIComponents() {
-        EditText introAboutGame = (EditText) findViewById(R.id.intro_about_game);
+        EditText introAboutGame = findViewById(R.id.intro_about_game);
         introAboutGame.setText(getResources().getString(R.string.adventure_intro));
-        Button playGameButton = (Button) findViewById(R.id.play_game_button);
+        Button playGameButton = findViewById(R.id.play_game_button);
         playGameButton.setOnClickListener(this);
     }
 

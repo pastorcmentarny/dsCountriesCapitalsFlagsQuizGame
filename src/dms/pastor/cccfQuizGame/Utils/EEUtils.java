@@ -104,6 +104,7 @@ public final class EEUtils {
         messages.add("Rio de Janeiro in English means January River.");
         messages.add("Canada is the country with highest number of lakes in the world.");
         messages.add("Canada is largest country  in North America.");
+        messages.add("Canada has the longest coastline of any country in the world");
         messages.add("China has the highest population in the world.There is more than 1,343,000,000 people. \n");
         messages.add("China has the highest population of buddhists in the world.\n");
         messages.add("Chinese territory is wide spread and it covers 5 time zone,but whole China using only 1 time zone called Beijing Time  .\n");
@@ -179,14 +180,14 @@ public final class EEUtils {
 
     public static void displayBlindToast(Context context, Activity activity) {
         View myLayout = setupImageForToast(activity, R.drawable.eye);
-        TextView myMessage = (TextView) myLayout.findViewById(R.id.text_to_display);
+        TextView myMessage = myLayout.findViewById(R.id.text_to_display);
         myMessage.setText(R.string.blind);
         displayToast(context, myLayout);
     }
 
     public static void displayHalfHalfToast(Context context, Activity activity) {
         View myLayout = setupImageForToast(activity, R.drawable.half);
-        TextView myMessage = (TextView) myLayout.findViewById(R.id.text_to_display);
+        TextView myMessage = myLayout.findViewById(R.id.text_to_display);
         myMessage.setText(R.string.fifty_fifty_to_guess);
         displayToast(context, myLayout);
     }
@@ -195,7 +196,7 @@ public final class EEUtils {
     private static View setupImageForToast(Activity activity, int imageResource) {
         LayoutInflater myInflater = activity.getLayoutInflater();
         View myLayout = myInflater.inflate(R.layout.domtoast, (ViewGroup) activity.findViewById(R.id.toastLayout));
-        ImageView myImage = (ImageView) myLayout.findViewById(R.id.img);
+        ImageView myImage = myLayout.findViewById(R.id.img);
         myImage.setImageResource(imageResource);
         return myLayout;
     }

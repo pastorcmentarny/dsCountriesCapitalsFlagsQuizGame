@@ -138,11 +138,11 @@ public class CustomGameSetup extends Activity implements View.OnClickListener, A
     }
 
     private void setupUIComponents() {
-        Button helpButton = (Button) findViewById(R.id.custom_setup_help_button);
-        startGameButton = (Button) findViewById(R.id.startGameButton);
-        gameModeSpinner = (Spinner) findViewById(R.id.gameModeSpinner);
-        spinnerAnswer = (Spinner) findViewById(R.id.spinner_answer);
-        spinnerQuestion = (Spinner) findViewById(R.id.spinner_question);
+        Button helpButton = findViewById(R.id.custom_setup_help_button);
+        startGameButton = findViewById(R.id.startGameButton);
+        gameModeSpinner = findViewById(R.id.gameModeSpinner);
+        spinnerAnswer = findViewById(R.id.spinner_answer);
+        spinnerQuestion = findViewById(R.id.spinner_question);
 
         helpButton.setOnClickListener(this);
         startGameButton.setOnClickListener(this);

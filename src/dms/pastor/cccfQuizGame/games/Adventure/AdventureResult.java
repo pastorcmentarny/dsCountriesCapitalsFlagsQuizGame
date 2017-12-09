@@ -10,7 +10,6 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.widget.Button;
 import android.widget.TableRow;
 import android.widget.TextView;
 
@@ -162,24 +161,24 @@ public class AdventureResult extends AbstractResult {
     }
 
     private void setupUIComponents() {
-        resultGrade = (TextView) findViewById(R.id.result_grade);
+        resultGrade = findViewById(R.id.result_grade);
         resultGrade.setVisibility(View.GONE);
-        resultScore = (TextView) findViewById(R.id.result_score);
-        levelNumber = (TextView) findViewById(R.id.levelNumber);
-        correctAnswersValue = (TextView) findViewById(R.id.correct_answers_value);
-        mistakesValue = (TextView) findViewById(R.id.mistakes_value);
-        questionsValue = (TextView) findViewById(R.id.questions_value);
-        resultTime = (TextView) findViewById(R.id.result_time);
-        recordInfo = (TextView) findViewById(R.id.record);
-        backToMainMenu = (Button) findViewById(R.id.backToMainMenu);
+        resultScore = findViewById(R.id.result_score);
+        levelNumber = findViewById(R.id.levelNumber);
+        correctAnswersValue = findViewById(R.id.correct_answers_value);
+        mistakesValue = findViewById(R.id.mistakes_value);
+        questionsValue = findViewById(R.id.questions_value);
+        resultTime = findViewById(R.id.result_time);
+        recordInfo = findViewById(R.id.record);
+        backToMainMenu = findViewById(R.id.backToMainMenu);
         backToMainMenu.setOnClickListener(this);
         backToMainMenu.setVisibility(View.INVISIBLE);
 
-        restart = (Button) findViewById(R.id.reset);
+        restart = findViewById(R.id.reset);
         restart.setOnClickListener(this);
         restart.setVisibility(View.INVISIBLE);
 
-        TableRow questionsRow = (TableRow) findViewById(R.id.questions_row);
+        TableRow questionsRow = findViewById(R.id.questions_row);
         questionsRow.setVisibility(View.GONE);
     }
 

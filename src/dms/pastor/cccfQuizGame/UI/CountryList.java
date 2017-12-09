@@ -88,19 +88,19 @@ public class CountryList extends ListActivity {
 
         setImage(country, countryDialog);
 
-        TextView countryName = (TextView) countryDialog.findViewById(R.id.countryName);
+        TextView countryName = countryDialog.findViewById(R.id.countryName);
         countryName.setText(country.getCountry());
 
-        TextView message = (TextView) countryDialog.findViewById(R.id.countryDialogMessage);
+        TextView message = countryDialog.findViewById(R.id.countryDialogMessage);
         message.setText(countryInformation);
 
-        Button dialogButton = (Button) countryDialog.findViewById(R.id.buttonOK);
+        Button dialogButton = countryDialog.findViewById(R.id.buttonOK);
         dialogButton.setOnClickListener(getDismissDialogOnClick(countryDialog));
         countryDialog.show();
     }
 
     private void setImage(Country country, Dialog countryDialog) {
-        ImageView flagImage = (ImageView) countryDialog.findViewById(R.id.image);
+        ImageView flagImage = countryDialog.findViewById(R.id.image);
         Options options = new Options();
         options.inSampleSize = DEFAULT_IN_SAMPLE_SIZE;
 

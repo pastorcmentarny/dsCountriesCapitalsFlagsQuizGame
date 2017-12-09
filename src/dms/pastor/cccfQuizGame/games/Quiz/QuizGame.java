@@ -181,24 +181,24 @@ public class QuizGame extends Quiz implements View.OnClickListener {
 
     private void setupUIComponents() {
         setupUIForQuestionType();
-        currentLevel = (TextView) findViewById(R.id.current_lvl);
-        correctValue = (TextView) findViewById(R.id.correct_value);
-        mistakesValue = (TextView) findViewById(R.id.mistakes_value);
-        score = (TextView) findViewById(R.id.current_score);
-        timeElapsed = (TextView) findViewById(R.id.time_elapsed_value);
-        levelStatus = (TextView) findViewById(R.id.levelStatus);
-        levelProgressBar = (ProgressBar) findViewById(R.id.level_progressbar);
-        answer1Button = (Button) findViewById(R.id.answer1);
-        answer2Button = (Button) findViewById(R.id.answer2);
-        answer3Button = (Button) findViewById(R.id.answer3);
-        answer4Button = (Button) findViewById(R.id.answer4);
-        answer5Button = (Button) findViewById(R.id.answer5);
-        answer6Button = (Button) findViewById(R.id.answer6);
-        TableRow continentRow = (TableRow) findViewById(R.id.continent_row);
+        currentLevel = findViewById(R.id.current_lvl);
+        correctValue = findViewById(R.id.correct_value);
+        mistakesValue = findViewById(R.id.mistakes_value);
+        score = findViewById(R.id.current_score);
+        timeElapsed = findViewById(R.id.time_elapsed_value);
+        levelStatus = findViewById(R.id.levelStatus);
+        levelProgressBar = findViewById(R.id.level_progressbar);
+        answer1Button = findViewById(R.id.answer1);
+        answer2Button = findViewById(R.id.answer2);
+        answer3Button = findViewById(R.id.answer3);
+        answer4Button = findViewById(R.id.answer4);
+        answer5Button = findViewById(R.id.answer5);
+        answer6Button = findViewById(R.id.answer6);
+        TableRow continentRow = findViewById(R.id.continent_row);
         if (game.getAnswer().equals(REGION)) {
             continentRow.setVisibility(View.VISIBLE);
         }
-        removeBadAnswerButton = (Button) findViewById(R.id.spell_remove_wrong_button);
+        removeBadAnswerButton = findViewById(R.id.spell_remove_wrong_button);
 
         answer1Button.setOnClickListener(this);
         answer2Button.setOnClickListener(this);
@@ -210,12 +210,12 @@ public class QuizGame extends Quiz implements View.OnClickListener {
     }
 
     private void setupUIForQuestionType() {
-        questionTitle = (TextView) findViewById(R.id.question_title);
+        questionTitle = findViewById(R.id.question_title);
         if (qFLAGType) {
             //noinspection UnusedAssignment
-            ImageView flagImage = (ImageView) this.findViewById(R.id.imageView);
+            ImageView flagImage = this.findViewById(R.id.imageView);
         } else {
-            questionText = (TextView) findViewById(R.id.questionText);
+            questionText = findViewById(R.id.questionText);
         }
     }
 
@@ -241,16 +241,16 @@ public class QuizGame extends Quiz implements View.OnClickListener {
         String question;
         switch (game.getAnswer()) {
             case REGION:
-                question = getQuestion("On which ", OF);
+                question = getQuestion("On which ");
                 break;
             case FLAG:
-                question = getQuestion("This is  ", OF);
+                question = getQuestion("This is  ");
                 break;
             case COUNTRY:
-                question = getQuestion(WHAT_IS, OF);
+                question = getQuestion(WHAT_IS);
                 break;
             case CAPITAL:
-                question = getQuestion(WHAT_IS, OF);
+                question = getQuestion(WHAT_IS);
                 break;
             default:
                 question = "Woops! Author mess up something.";
@@ -263,7 +263,7 @@ public class QuizGame extends Quiz implements View.OnClickListener {
 
         if (qFLAGType) {
             ImageView flagImage;
-            flagImage = (ImageView) this.findViewById(R.id.imageView);
+            flagImage = this.findViewById(R.id.imageView);
             BitmapFactory.Options options = new BitmapFactory.Options();
             options.inSampleSize = DEFAULT_IN_SAMPLE_SIZE;
             Bitmap bitmap = decodeToBitmap(this.getResources(), this.getResources().getIdentifier(answerCountry.getFlagId(), "drawable", getPackageName()));
@@ -274,8 +274,8 @@ public class QuizGame extends Quiz implements View.OnClickListener {
     }
 
     @NonNull
-    private String getQuestion(String prefix, String suffix) {
-        return prefix + game.getAnswer().toString() + suffix;
+    private String getQuestion(String prefix) {
+        return prefix + game.getAnswer().toString() + QuizGame.OF;
     }
 
     private String getData(Country country, GameType gameType) {

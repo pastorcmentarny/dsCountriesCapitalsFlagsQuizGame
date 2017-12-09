@@ -763,35 +763,35 @@ public class AdventureGame extends Quiz implements View.OnClickListener {
     }
 
     private void setupUIComponents() {
-        flagImage = (ImageView) this.findViewById(R.id.imageView);
+        flagImage = this.findViewById(R.id.imageView);
 
-        bonusScore = (TextView) findViewById(R.id.bonus_score);
-        correctValue = (TextView) findViewById(R.id.correct_value);
-        currentLevel = (TextView) findViewById(R.id.current_lvl);
-        current_life = (TextView) findViewById(R.id.current_life);
-        mistakesValue = (TextView) findViewById(R.id.mistakes_value);
-        questionTitle = (TextView) findViewById(R.id.question_title);
-        questionText = (TextView) findViewById(R.id.questionText);
-        score = (TextView) findViewById(R.id.current_score);
-        timeElapsed = (TextView) findViewById(R.id.time_elapsed_value);
-        levelStatus = (TextView) findViewById(R.id.levelStatus);
+        bonusScore = findViewById(R.id.bonus_score);
+        correctValue = findViewById(R.id.correct_value);
+        currentLevel = findViewById(R.id.current_lvl);
+        current_life = findViewById(R.id.current_life);
+        mistakesValue = findViewById(R.id.mistakes_value);
+        questionTitle = findViewById(R.id.question_title);
+        questionText = findViewById(R.id.questionText);
+        score = findViewById(R.id.current_score);
+        timeElapsed = findViewById(R.id.time_elapsed_value);
+        levelStatus = findViewById(R.id.levelStatus);
 
-        flagImage = (ImageView) this.findViewById(R.id.imageView);
+        flagImage = this.findViewById(R.id.imageView);
 
-        answer1Button = (Button) findViewById(R.id.answer1);
-        answer2Button = (Button) findViewById(R.id.answer2);
-        answer3Button = (Button) findViewById(R.id.answer3);
-        answer4Button = (Button) findViewById(R.id.answer4);
-        answer5Button = (Button) findViewById(R.id.answer5);
-        answer6Button = (Button) findViewById(R.id.answer6);
-        continentRow = (TableRow) findViewById(R.id.continent_row);
+        answer1Button = findViewById(R.id.answer1);
+        answer2Button = findViewById(R.id.answer2);
+        answer3Button = findViewById(R.id.answer3);
+        answer4Button = findViewById(R.id.answer4);
+        answer5Button = findViewById(R.id.answer5);
+        answer6Button = findViewById(R.id.answer6);
+        continentRow = findViewById(R.id.continent_row);
 
-        removeBadAnswerButton = (Button) findViewById(R.id.spell_remove_wrong_button);
+        removeBadAnswerButton = findViewById(R.id.spell_remove_wrong_button);
 
-        tap2unfreeze = (Button) findViewById(R.id.tap2unfreeze);
+        tap2unfreeze = findViewById(R.id.tap2unfreeze);
         tap2unfreeze.setOnClickListener(this);
 
-        adventureBackground = (LinearLayout) findViewById(R.id.adventure_background);
+        adventureBackground = findViewById(R.id.adventure_background);
 
         answer1Button.setOnClickListener(this);
         answer2Button.setOnClickListener(this);

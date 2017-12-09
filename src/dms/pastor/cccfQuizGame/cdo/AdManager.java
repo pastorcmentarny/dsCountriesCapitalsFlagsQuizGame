@@ -27,7 +27,7 @@ public class AdManager {
     private static final String TAG = "Ad Manager";
 
     public static void loadAd(Activity activity) {
-        AdView adView = (AdView) activity.findViewById(R.id.adView);
+        AdView adView = activity.findViewById(R.id.adView);
         try {
             AdRequest adRequest = Utils.getAdRequest();
             adView.loadAd(adRequest);

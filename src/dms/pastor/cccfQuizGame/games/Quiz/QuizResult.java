@@ -9,7 +9,6 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.widget.Button;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -173,7 +172,7 @@ public class QuizResult extends AbstractResult {
 
     private void setupResultForSaper() {
         giveAGrade(this, resultGrade, game.calculateScore(), game.getGameMode());
-        TableRow questionsRow = (TableRow) findViewById(R.id.questions_row);
+        TableRow questionsRow = findViewById(R.id.questions_row);
         questionsRow.setVisibility(View.GONE);
         resultScore.setText(getLastLevelAsString());
         resultTime.setText(getResultTimeAsString(game.getTotalTime()));
@@ -296,20 +295,20 @@ public class QuizResult extends AbstractResult {
 
     private void setupUIComponents() {
         preferences = PreferenceManager.getDefaultSharedPreferences(QuizResult.this);
-        resultGrade = (TextView) findViewById(R.id.result_grade);
-        resultScore = (TextView) findViewById(R.id.result_score);
-        resultTime = (TextView) findViewById(R.id.result_time);
-        correctAnswersValue = (TextView) findViewById(R.id.correct_answers_value);
-        mistakesValue = (TextView) findViewById(R.id.mistakes_value);
-        questionsValue = (TextView) findViewById(R.id.questions_value);
-        recordInfo = (TextView) findViewById(R.id.record);
-        levelNumber = (TextView) findViewById(R.id.levelNumber);
+        resultGrade = findViewById(R.id.result_grade);
+        resultScore = findViewById(R.id.result_score);
+        resultTime = findViewById(R.id.result_time);
+        correctAnswersValue = findViewById(R.id.correct_answers_value);
+        mistakesValue = findViewById(R.id.mistakes_value);
+        questionsValue = findViewById(R.id.questions_value);
+        recordInfo = findViewById(R.id.record);
+        levelNumber = findViewById(R.id.levelNumber);
 
-        backToMainMenu = (Button) findViewById(R.id.backToMainMenu);
+        backToMainMenu = findViewById(R.id.backToMainMenu);
         backToMainMenu.setOnClickListener(this);
         backToMainMenu.setVisibility(View.INVISIBLE);
 
-        restart = (Button) findViewById(R.id.reset);
+        restart = findViewById(R.id.reset);
         restart.setOnClickListener(this);
         restart.setVisibility(View.INVISIBLE);
     }
