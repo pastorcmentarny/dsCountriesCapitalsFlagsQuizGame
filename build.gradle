@@ -3,23 +3,32 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
     }
 }
+
+
 apply plugin: 'com.android.application'
+
+allprojects {
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
 
 dependencies {
     compile fileTree(include: '*.jar', dir: 'libs')
-    compile 'com.google.android.gms:play-services-ads:10.2.0'
+    compile 'com.google.android.gms:play-services-ads:11.6.2'
 }
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.2'
+    compileSdkVersion 26
+    buildToolsVersion '27.0.0'
     defaultConfig {
         applicationId 'dms.pastor.cccfQuizGame'
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 32
         versionName "4.5"
     }
