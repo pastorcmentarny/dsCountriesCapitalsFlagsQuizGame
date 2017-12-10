@@ -139,10 +139,10 @@ public class CountryList extends ListActivity {
     }
 
     private String getRegionsThatCountryBelongsTo(List<Region> regions) {
-        String regionList = EMPTY_STRING;
+        StringBuilder regionList = new StringBuilder(EMPTY_STRING);
         for (Region region : regions) {
-            regionList += region.toString() + WHITESPACE;
+            regionList.append(region.toString()).append(WHITESPACE);
         }
-        return regionList;
+        return regionList.toString();
     }
 }

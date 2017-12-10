@@ -147,6 +147,8 @@ public final class EEUtils {
                 "year 2020.");
         messages.add("Sweden has, along with Denmark and Hungary, the highest standard V.A.T. rate in the world (25%)");
         messages.add("Nordstan is a shopping centre in Göteborg (Sweden). It is the largest shopping centre in Scandinavia");
+        messages.add("Polish Salt Mine in Wieliczka is one of the oldest salt mine in the world.It is a tourist attraction ");
+        messages.add("Poland is a first country in Europe and second in the World to have constitution.");
         messages.add("Sweden has the highest number of nuclear plants per capita, with 10 reactors for 9 million inhabitants.");
         messages.add("Stockholm Globe Arena is currently the largest hemispherical building in the world and took two and a half years to build. Shaped like a large white ball, it has a diameter of 110 metres (361 feet) and an inner height of 85 metres (279 feet).");
         messages.add("Madrid is a highest capital in Europe.");

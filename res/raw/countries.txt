@@ -137,7 +137,7 @@
 ;;137;;Paraguay;;Paraguay;;Asuncion;;S_AMERICA;;paraguay;;none;;
 ;;138;;Peru;;Peru;;Lima;;S_AMERICA;;peru;;none;;
 ;;139;;Philippines;;Philippines;;Manila;;ASIA;;philippines;;none;;
-;;140;;Poland;;Poland;;Warsaw;;EUROPE;;poland;;none;;
+;;140;;Poland;;Poland;;Warsaw;;EUROPE;;poland;;I am from Poland. If you ever see Poland go to Wrocław, my hometown and hidden gem. For example “Piwnica Swidnicka” is the oldest restaurant in Europe that was open in 1275.;;
 ;;141;;Portugal;;Portugal;;Lisbon;;EUROPE;;portugal;;none;;
 ;;142;;Qatar;;Qatar;;Doha;;ASIA;;qatar;;none;;
 ;;143;;Romania;;Romania;;Bucharest;;EUROPE;;romania;;none;;
@@ -167,7 +167,7 @@
 ;;167;;Suriname;;Suriname;;Paramaribo;;S_AMERICA;;suriname;;none;;
 ;;168;;Swaziland;;Swaziland;;Mbabane;;AFRICA;;swaziland;;none;;
 ;;169;;Sweden;;Sweden;;Stockholm;;EUROPE;;sweden;;none;;
-;;170;;Switzerland;;Switzerland;;Bern;;EUROPE;;switzerland;;none;;
+;;170;;Switzerland;;Switzerland;;Bern;;EUROPE;;switzerland;;Road racing events were banned in Switzerland after disaster in 1955  during Le Mans race in France. There are some the exception like hillclimbing events. One of them got famous after Richard Hammnod (from The Grand Tour/ex Top Gear) crashes Croatian supercar just after race. Source: Wikipedia, The Grand Tour;;
 ;;171;;Syria;;Syria;;Damascus;;ASIA;;syria;;none;;
 ;;172;;Taiwan;;Taiwan;;Taipei;;ASIA;;taiwan;;For me is a country as being politically correct is impossible in this case,so i mention that Taiwan who called themselves as Republic of China and competing for recognition with the People's Republic of China as the government of China since 1949.China in other hand claimed Taiwan as part of China.;;
 ;;173;;Tajikistan;;Tajikistan;;Dushanbe;;ASIA;;tajikistan;;none;;
