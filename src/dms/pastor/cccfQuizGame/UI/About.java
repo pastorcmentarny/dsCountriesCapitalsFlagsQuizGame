@@ -8,6 +8,7 @@ import dms.pastor.cccfQuizGame.R;
 
 import static dms.pastor.cccfQuizGame.Utils.StringUtils.EMPTY_STRING;
 import static dms.pastor.cccfQuizGame.Utils.UIUtils.setTextColor;
+import static dms.pastor.cccfQuizGame.Utils.Utils.isNull;
 
 /**
  * Author Dominik Symonowicz
@@ -25,33 +26,37 @@ public class About extends Activity {
         TextView aboutContent = findViewById(R.id.about_content);
         Bundle extras = getIntent().getExtras();
 
-        if (extras != null) {
-            String aboutType = extras.getString("TOPIC");
-            setTextColor(aboutContent, R.color.about, this);
-            switch (aboutType != null ? aboutType : EMPTY_STRING) {
-                case "ME":
-                    aboutContent.setText(getResources().getString(R.string.about_me_text));
-                    break;
-                case "PROGRAM":
-                    aboutContent.setText(getResources().getString(R.string.about_program_text));
-                    break;
-                case "THANKS":
-                    aboutContent.setText(getResources().getString(R.string.about_thanks_text));
-                    break;
-                case "EULA":
-                    aboutContent.setText(getResources().getString(R.string.about_eula_text));
-                    break;
-                case "GA":
-                    aboutContent.setText(getResources().getString(R.string.about_game_accuracy_text));
-                    break;
-                default:
-                    setTextColor(aboutContent, R.color.error, this);
-                    aboutContent.setText(getResources().getString(R.string.noAbout));
-                    break;
-            }
-        } else {
+        if (isNull(extras)) {
             setTextColor(aboutContent, R.color.error, this);
             aboutContent.setText(getResources().getString(R.string.noAbout));
+        } else {
+            displayAboutContent(aboutContent, extras);
+        }
+    }
+
+    private void displayAboutContent(TextView aboutContent, Bundle extras) {
+        String aboutType = extras.getString("TOPIC");
+        setTextColor(aboutContent, R.color.about, this);
+        switch (aboutType != null ? aboutType : EMPTY_STRING) {
+            case "ME":
+                aboutContent.setText(getResources().getString(R.string.about_me_text));
+                break;
+            case "PROGRAM":
+                aboutContent.setText(getResources().getString(R.string.about_program_text));
+                break;
+            case "THANKS":
+                aboutContent.setText(getResources().getString(R.string.about_thanks_text));
+                break;
+            case "EULA":
+                aboutContent.setText(getResources().getString(R.string.about_eula_text));
+                break;
+            case "GA":
+                aboutContent.setText(getResources().getString(R.string.about_game_accuracy_text));
+                break;
+            default:
+                setTextColor(aboutContent, R.color.error, this);
+                aboutContent.setText(getResources().getString(R.string.noAbout));
+                break;
         }
     }
 }
